@@ -1,20 +1,14 @@
 import React from "react";
 
-const Hero2 = () => {
+const Hero2: React.FC = () => {
   return (
-    <div className="bg-slate-800 py-10 ">
+    <div className="py-10 px-5">
       <section className="max-w-[1200px] mx-auto mt-12 mb-12">
-        {" "}
-        <div className="flex gap-4 items-center font-semibold text-yellow-300 mb-1 ">
-          <p className="text-[20px] font-semibold">3 EASY STEPS</p>
-          <img className="w-16 h-3" src="./img/tải xuống.png" alt="" />
-        </div>
-        <h1 className="text-3xl uppercase font-bold text-white mb-10">
+        <h1 className="text-3xl uppercase text-center font-bold text-white mb-10">
           HOW TO PARTICIPATE{" "}
         </h1>
-        <nav className=" flex justify-between gap-5 items-center ">
-          <div className="p-2 flex gap-4 max-w-[33%]">
-            <img src="./img/one.png" alt="" />
+        <nav className="flex flex-col md:flex-row justify-between gap-5 items-center">
+          <div className="p-4 border bg-slate-700 rounded-md flex gap-4 md:w-[33%]">
             <div>
               <h2 className="mb-4 text-[30px] font-bold text-white">
                 Buy $MLP
@@ -25,8 +19,7 @@ const Hero2 = () => {
               </p>
             </div>
           </div>
-          <div className="p-2 flex gap-4 max-w-[33%]">
-            <img src="./img/2.png" alt="" />
+          <div className="p-4 border bg-slate-700 rounded-md flex gap-4 md:w-[33%]">
             <div>
               <h2 className="mb-4 text-[30px] font-bold text-white">
                 Buy $MLP
@@ -37,8 +30,7 @@ const Hero2 = () => {
               </p>
             </div>
           </div>
-          <div className="p-2 flex gap-4 max-w-[33%]">
-            <img src="./img/3.png" alt="" />
+          <div className="p-4 border bg-slate-700 rounded-md flex gap-4 md:w-[33%]">
             <div>
               <h2 className="mb-4 text-[30px] font-bold text-white">
                 Buy $MLP

@@ -7,6 +7,8 @@ module.exports = {
         bg1: "url('../public/img/3d-rendering-cryptocurency-distribution.jpg')",
         bg2: "url('../public/img/72293.jpg')",
         bg3: "url('../public/img/108909.jpg')",
+        bg4: "url('../public/img/16301849_mal10.jpg')",
+
       }
     },
   },
